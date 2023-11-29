@@ -2,7 +2,7 @@
 
 require_once 'mail.php';
 
-if(empty($_POST["mail"]) && empty($_POST["mail"]))
+if(empty() && empty())
 {
-    echo "no";
+    echo "please enter ur information";
 }
